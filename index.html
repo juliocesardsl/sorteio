@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sorteio de Jogos</title>
+</head>
+<body>
+    <h1>Sorteio de Jogos</h1>
+    <label for="qtd_jogos">Quantos jogos você quer sortear?</label><br>
+    <input type="number" id="qtd_jogos" required><br><br>
+    <label for="jogos">Quais os nomes dos jogos? (um por linha)</label><br>
+    <textarea id="jogos" rows="5" cols="30" required></textarea><br><br>
+    <button onclick="sortear()">Sortear</button>
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
