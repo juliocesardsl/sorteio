@@ -14,3 +14,7 @@ for i in range(qtd_jogos):
 sorteio = random.choice(jogos)
 
 print('O jogo sorteado foi:', sorteio)
+
+
+
+https://juliocesardsl.github.io/sorteio/
